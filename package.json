@@ -5,16 +5,16 @@
     "description": "Launcher Mincraft pour le serveur Solrac",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Anthony, Inc.",
+        "name": "Anthony",
         "email": "none.com",
         "url": "https://github.com/Anthony123456555"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "http://45.140.165.216:2025",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://raw.githubusercontent.com/Anthony123456555/Solrac-Launcher/master/src/assets/images/solrac.PNG"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -23,7 +23,7 @@
     },
     "dependencies": {
         "electron-updater": "^6.1.8",
-        "minecraft-java-core": "^3.10.1",
+        "minecraft-java-core": "^3.10.4",
         "node-bdd": "^2.0.3",
         "node-fetch": "^2.7.0",
         "xml-js": "^1.6.11"
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/Anthony123456555/Solrac-Launcher.git"
     }
 }
