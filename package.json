@@ -1,6 +1,6 @@
 {
     "name": "Solrac-Launcher",
-    "preductname": "Solrac Launcher",
+    "preductname": "Solrac Launncher",
     "version": "2.0.5",
     "description": "Launcher Mincraft pour le serveur Solrac",
     "main": "src/app.js",
